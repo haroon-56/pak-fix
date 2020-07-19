@@ -1,0 +1,13 @@
+mongodb
+Username:userme@yopmail.com
+Password:User@123
+
+//db user
+username : testuser
+password : usermeonetwo
+
+//db name:test
+
+https://techansian.herokuapp.com/
+
+https://github.com/haroon-56/techansian

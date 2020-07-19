@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="img/fav.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/main.css">
+        <title>About Us</title>
+    </head>
+<body>
+
+    <div class="card mt-5 mb-5">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-11">
+                    <h5>Dashboard</h5>
+                </div>
+                <div class="col-1">
+                    <a href="/users/logout" class="btn btn-danger">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><strong>Hello</strong>, <span style="text-transform: uppercase;"><%= users[0].name  %></span></h5>
+        </br>
+
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarmad  Rauf</h5>
+                      <p class="card-text">I am good electrication i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="1" onclick="hireme(1)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech1.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Ali Hassan</h5>
+                      <p class="card-text">I am good Pharmacy technician i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="2" onclick="hireme(2)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech2.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Haroon Hassan</h5>
+                      <p class="card-text">I am good electrication i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="3" onclick="hireme(3)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech3.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Ahmed Sheroz</h5>
+                      <p class="card-text">I am good plamber i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="4" onclick="hireme(4)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row pl-3 pr-3 mb-4">
+            <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech4.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Zunair Ali</h5>
+                      <p class="card-text">I am good electrication i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="5" onclick="hireme(5)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech5.jpg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Lise Meitner</h5>
+                      <p class="card-text">I am good mechanic i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="6" onclick="hireme(6)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech6.jpeg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Zahid Ali</h5>
+                      <p class="card-text">I am good electrication i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="7" onclick="hireme(7)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/tech7.jpg" height="200" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Max Born</h5>
+                      <p class="card-text">I am good Techansion i can solve all your problems on one click if you are intersted with me please hire me</p>
+                      <button type="button" class="btn btn-primary btn-lg" id="8" onclick="hireme(8)">Hire Me</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+    var hireuser = sessionStorage.getItem("userid");
+        if(hireuser != null)
+        {
+            document.getElementById(hireuser).innerHTML = "Hired";
+            document.getElementById(hireuser).style.backgroundColor = "green";
+        }
+
+    function hireme(id)
+    {
+        var user = sessionStorage.getItem("userid");
+        if(user != null)
+        {
+            sessionStorage.removeItem("userid");
+            document.getElementById(user).innerHTML = "Hire Me";
+            document.getElementById(user).style.backgroundColor = "#0275d8";
+        }
+        sessionStorage.setItem("userid", id);
+        document.getElementById("modal").click();
+        document.getElementById(id).innerHTML = "Hired";
+        document.getElementById(id).style.backgroundColor = "green";
+    }
+</script>
+
+
+
+<!-- Button trigger modal -->
+<button type="hidden" id="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thank You <%= users[0].name  %></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Thank you so much for hiring me</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
